@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
         obj.capitalize!
       end
       day_string = day_array.join(" ")
-      puts day_string
+      puts day_string + ":"
     end  
   end
 
