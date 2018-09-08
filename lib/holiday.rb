@@ -79,7 +79,8 @@ def all_supplies_in_holidays(holiday_hash)
       day_string = day_array.join(" ")
       puts day_string + ":"
       supplies.each do |obj|
-        obj.join(", ")
+       supplies_string = obj.join(", ")
+       puts supplies_string
       end
     end  
   end
