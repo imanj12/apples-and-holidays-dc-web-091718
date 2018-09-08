@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts season_string
     holiday.each do |day,supplies|
       day_string = day.to_s
-      day_string.split
+      day_string.split("_")
     end  
   end
 
