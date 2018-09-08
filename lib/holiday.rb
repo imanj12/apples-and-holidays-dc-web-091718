@@ -79,8 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
       day_string = day_array.join(" ")
       day_string = "  " + day_string + ": "
       supplies_string = supplies.join(", ")
-       puts day_string + supplies_string
-      
+      puts day_string + supplies_string
     end  
   end
 
